@@ -1,0 +1,351 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: #a4d0d9;
+  height: 400px;
+}
+
+/******************************** NAVIGATION ******************************/
+nav {
+  padding-top: 20px;
+}
+
+nav li {
+  display: inline-block;
+  list-style: none;
+  padding-right: 3%;
+  font-weight: bold;
+}
+
+nav li a {
+  text-decoration: none;
+  color: #000;
+}
+
+/******************************** NAVIGATION LOGO ******************************/
+.logo {
+  display: inline;
+  float: left;
+  padding: 0 18%;
+}
+
+.logoIcon {
+  padding-right: 10px;
+}
+
+/******************************** HEADER TEXT DIV ******************************/
+.headerText {
+  color: white;
+  font-size: 36px;
+  height: 150px;
+  width: 50%;
+  padding-top: 10%;
+  padding-left: 17%;
+  text-align: center;
+}
+
+header div img {
+  height: 200px;
+  width: 250px;
+  text-align: center;
+  display: inline-block;
+  margin-top: -5%;
+  z-index: -1;
+  margin-left: 50%;
+}
+
+/******************************** CONTENT ONE DIV ******************************/
+.contentOne {
+  background-color: #fff;
+  height: 300px;
+  width: 100%;
+  margin: 0 auto;
+  
+}
+
+.contentOneImg {
+  height: 200px;
+  display: inline-block;
+  text-align: center;
+  width: 25%;
+  margin: 4%;
+  margin-bottom: 8%;
+}
+
+.contentOneImg img {
+  width: 75%;
+  margin-top: -12%;
+}
+
+/******************************** CONTENT TWO DIV ******************************/
+.contentTwo {
+  background-color: #9bd4a7;
+  color: #fff;
+  height: 850px;
+}
+
+.contentTwoHeader {
+  text-align: center;
+  padding-top: 2%;
+  height: 100px;
+}
+
+/******************** CONTENT TWO NAVIGATION ********************/
+.contentTwoNavigation {
+  padding-top: 1%;
+  text-align: center;
+}
+
+.contentTwoNavigation li {
+  display: inline;
+  margin: 2%;
+}
+
+.contentTwoNavigation li a {
+  text-decoration: none;
+  color: #fff;
+}
+/******************** CONTENT TWO IMAGES ********************/
+
+.contentTwoImages {
+  height: 75%;
+  width: 90%;
+  text-align: center;
+  margin-left: 5%;
+}
+
+.contentTwoImagesFlat {
+  display: inline-block;
+  margin-top: 1%; 
+  margin-left: 2%;
+  margin-right: 2%;
+  padding: 14px 1%;
+}
+
+.contentTwoImagesFlat img {
+  height: 210px;
+  width: 251px;
+}
+
+.contentTwo button {
+  width: 150px;
+  height: 50px;
+  border: none;
+  border-radius: 10px;
+  background-color: #fff;
+  color: #a9a9a7;
+  font-weight: bold;
+  letter-spacing: 1px;
+  margin-top: 30px;
+}
+
+/******************************** CONTENT THREE DIV *****************************/
+.contentThree {
+  height: 550px;
+  width: 100%;
+  background-color: #f0f0f0;
+  color: #000;
+}
+
+.contentThreeTopImage {
+  height: 75px;
+  margin-left: 13%;
+  margin-top: 2%;
+  padding-top: 30px;
+  display: inline-block
+}
+
+.contentThreeTopImage img {
+    width: 30%;
+}
+
+.contentThreeTopText {
+  height: 150px;
+  width: 30%;
+  margin-left: 5%;
+  padding-top: 30px;
+  float: right;
+  margin-right: 35%;
+  margin-top: -17.5%;
+}
+
+.contentThreeTopText button {
+  background-color: #9bd4a7;
+  color: #fff;
+}
+
+hr {
+  width: 70%;
+  margin: 5% auto;
+}
+/********************** CONTENT THREE BOTTOM DIV ****************/
+.contentThreeBottomText {
+  margin-left: 15%;
+  margin-top: -1%;
+  display: inline-block;
+}
+
+.contentThreeBottomText button {
+  background-color: #a4d0d9;
+  color: #fff;
+}
+
+.contentThreeBottomImage {
+  width: 40%;
+  height: 75px;
+  margin-right: 13%;
+  padding-top: 30px;
+  display: inline-block;
+  float: right;
+  margin-top: -5%;
+}
+
+.contentThreeBottomImage img {
+  width: 50%;
+}
+
+/******************************** CONTENT FOUR DIV *****************************/
+.contentFour {
+  height: 700px;
+  width: 100%;
+  background-color: #e0b5c6;
+}
+
+.contentFourHeader {
+  text-align: center;
+  padding-top: 2%;
+  height: 100px;
+}
+
+.contentFourBox {
+  height: 350px;
+  width: 80%;
+  margin: 8% 14.5%;
+}
+
+.contentFourProfile {
+  display: inline-block;
+  margin: 0 2%;
+  height: 300px;
+  width: 25%;
+  background-color: #fff;
+  text-align: center;
+  color: #000;
+  margin-left: 3%;
+}
+
+.contentFourProfile img {
+  height: 50%;
+}
+
+.contentFourSocialIcons {
+  padding-top: 50px;
+}
+
+
+/******************************** CONTENT FIVE DIV *****************************/
+.contentFive {
+  height: 700px;
+  width: 100%;
+  background-color: #a4d0d9;
+}
+
+.contentFiveHeader {
+  text-align: center;
+  padding-top: 2%;
+  height: 100px;
+  color: #fff;
+}
+
+.contentFiveBox {
+  height: 350px;
+  width: 80%;
+  margin-left: 14.5%;
+  margin-right: 14.5%;
+  margin-top: 5%;
+}
+
+.contentFiveProfile {
+  display: inline-block;
+  margin: 0 2%;
+  height: 300px;
+  width: 25%;
+  background-color: #fff;
+  text-align: center;
+  color: #000;
+  margin-left: 3%;
+}
+
+.contentFiveProfile img {
+  height: 50%;
+}
+
+.contentFiveButton {
+  margin: 0 45%;
+}
+
+.contentFiveButton span {
+  color: #a4d0d9;
+}
+
+/******************************** CONTENT SIX DIV *****************************/
+.contentSix {
+  height: 700px;
+  width: 100%;
+  background-color: #3b3b3b;
+  color: #000;
+}
+
+.contentSixHeader {
+  text-align: center;
+  padding-top: 2%;
+  height: 100px;
+  color: #fff;
+}
+
+.contactForm {
+  width: 100%;
+  text-align: center;
+}
+
+.contactFormBox {
+  width: 40%;
+  margin: 8px;
+  height: 35px;
+  border-radius: 5px;
+  border: none;
+  padding-left: 5px;
+}
+
+.messageBox {
+  height: 150px;
+  padding-bottom: 125px;
+}
+
+.contentSixButton {
+  margin: 0 45%;
+}
+
+.contentSixButton span {
+  color: #3b3b3b;
+}
+
+.contentSixSocialIcons {
+  margin-left: 15%;
+  display: inline;
+}
+
+.contentSixFooter {
+  margin-right: 10%;
+  float: right;
+  padding-top: 5px;
+  }
+
+.contentSixFooter span {
+  color: #a39674;
+}
+
+
